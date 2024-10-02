@@ -1,5 +1,6 @@
 // Venice Caffe
-const String linkServerName = "http://192.168.110.156/php_traitement";
+const String linkServerName = "http://your.IP.Adress/php_traitement";
+// Example :
 //const String linkServerName = "http://192.168.1.115/php_traitement";
 //const String linkServerName = "http://192.168.8.126/php_traitement";
 
