@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 import '../../constant/linkapi.dart';
 Future<LatLng?> getCoordinates(String city) async {
-    const apiKey = 'AIzaSyARIIx6-9CcdfMZim9BwQtt_ifBrNgh_EA';
+    const apiKey = 'your-google-maps-api';
     final apiUrl = 'https://maps.googleapis.com/maps/api/geocode/json?address=$city&key=$apiKey';
 
     var response = await http.get(Uri.parse(apiUrl));
